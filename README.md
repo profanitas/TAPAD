@@ -26,7 +26,13 @@ All **24984 WAV files** contains **24KHz** audio and have variable length.
 | Time Base          | 1/14112000     |
 
 
-The dataset consists in 24984 WAV files sampled at 24KHz for **72 different language classes** :
+The dataset consists in 24984 WAV files sampled at 24KHz for **72 different language classes**.
+
+To each one of the classes, corresponds 347 audio sample of ~1 seconds each.
+
+All of these audio files have been seperated by class in order to have **347 WAV files of 5.783 minutes** each.
+
+#### Listing :
 
 ```
 bn - 347 wav files to which corresponds ~1 sec of audio
