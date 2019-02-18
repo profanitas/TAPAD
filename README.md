@@ -102,3 +102,14 @@ en-uk - 347 wav files to which corresponds ~1 sec of audio
 en-us - 347 wav files to which corresponds ~1 sec of audio
 en-za - 347 wav files to which corresponds ~1 sec of audio
 ```
+
+
+
+
+
+**Dataset updated** `Feb 18, 2019`
+
+**Dataset provided by**
+
+* **Piyush Raj**
+* **Manav Kapil**
