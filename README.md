@@ -1,7 +1,7 @@
 # TAPAD : The Abuse Project Audio Dataset
 > Audio Dataset for The Abuse Project
 
-All **24984 WAV files** contains **24KHz** audio and have variable length.
+All **26025 WAV files** contains **24KHz** audio and have variable length.
 
 | File Type          | MP3            |
 |--------------------|----------------|
@@ -26,7 +26,7 @@ All **24984 WAV files** contains **24KHz** audio and have variable length.
 | Time Base          | 1/14112000     |
 
 
-The dataset consists in 24984 WAV files sampled at 24KHz for **72 different language classes**.
+The dataset consists in 26025 WAV files sampled at 24KHz for **75 different language classes**.
 
 To each one of the classes, corresponds 347 audio sample of ~1 seconds each.
 
@@ -86,6 +86,9 @@ tl - 347 wav files to which corresponds ~1 sec of audio
 tr - 347 wav files to which corresponds ~1 sec of audio
 uk - 347 wav files to which corresponds ~1 sec of audio
 vi - 347 wav files to which corresponds ~1 sec of audio
+en - 347 wav files to which corresponds ~1 sec of audio
+ar - 347 wav files to which corresponds ~1 sec of audio
+af - 347 wav files to which corresponds ~1 sec of audio
 zh-cn - 347 wav files to which corresponds ~1 sec of audio
 zh-tw - 347 wav files to which corresponds ~1 sec of audio
 pt-br - 347 wav files to which corresponds ~1 sec of audio
@@ -113,7 +116,7 @@ en-za - 347 wav files to which corresponds ~1 sec of audio
 
 
 
-**Dataset updated** `Feb 18, 2019`
+**Dataset updated** `Feb 27, 2019`
 
 **Dataset provided by**
 
