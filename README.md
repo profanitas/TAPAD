@@ -1,7 +1,10 @@
 # TAPAD : The Abuse Project Audio Dataset
-> Audio Dataset for The Abuse Project
+> Profanity audio dataset for "The Abuse Project"
 
-All **26025 WAV files** contains **24KHz** audio and have variable length.
+#### Total files : ‭26,365‬
+
+All **26025 WAV files** in `./audio/gTTS` directory contains **24KHz** audio and have variable length.
+
 
 | File Type          | MP3            |
 |--------------------|----------------|
@@ -26,7 +29,7 @@ All **26025 WAV files** contains **24KHz** audio and have variable length.
 | Time Base          | 1/14112000     |
 
 
-The dataset consists in 26025 WAV files sampled at 24KHz for **75 different language classes**.
+The dataset consists in 26025 WAV files in `./audio/gTTS` directory are sampled at 24KHz for **75 different language classes**.
 
 To each one of the classes, corresponds 347 audio sample of ~1 seconds each.
 
@@ -127,7 +130,4 @@ en-za - 347 wav files to which corresponds ~1 sec of audio
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-
-
-**[CC BY-NC-SA 4.0](LICENSE.md)**
+To view a copy of this license, visit **[NC-SA 4.0](LICENSE.md)** or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
