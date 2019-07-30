@@ -1,10 +1,15 @@
-# TAPAD : The Abuse Project Audio Dataset
-> Profanity audio dataset for "The Abuse Project"
+# The Abuse Project Audio Dataset (TAPAD)
 
-#### Total files : ‭26,365‬
+![tapad-logo]()
 
-All **26365 MP3/WAV files** in `./audio/` directory contains **24KHz** audio and have variable length.
+<p align="center">
+<b>World's largest profanity audio dataset<br><br>
+Total files: ‭[26,365‬](#checkfiles)<br>
+  Click <a href="https://github.com/0x48piraj/tapad/wiki">here</a> for documentation<br><br>
+See <a href="https://github.com/0x48piraj/theabuseproject">The Abuse Project</a></b>
+</p>
 
+## ID3
 
 | File Type          | MP3            |
 |--------------------|----------------|
@@ -29,13 +34,13 @@ All **26365 MP3/WAV files** in `./audio/` directory contains **24KHz** audio and
 | Time Base          | 1/14112000     |
 
 
-The dataset consists in 26365 MP3/WAV files in `./audio/` directory are sampled at 24KHz for **75 different language classes**.
+The dataset consists in **26365 MP3/WAV files** files in `./audio/` directory are sampled at 24KHz for **75 different language classes** with variable length.
 
 To each one of the classes, corresponds 347 audio sample of ~1 seconds each.
 
 All of these audio files have been seperated by class in order to have **347 MP3 files of 5.783 minutes** each.
 
-#### Listing :
+## Structure :
 
 ```
 bn - 347 mp3 files to which corresponds ~1 sec of audio
@@ -114,6 +119,12 @@ en-tz - 347 mp3 files to which corresponds ~1 sec of audio
 en-uk - 347 mp3 files to which corresponds ~1 sec of audio
 en-us - 347 mp3 files to which corresponds ~1 sec of audio
 en-za - 347 mp3 files to which corresponds ~1 sec of audio
+```
+
+#### Checking files <a name="checkfiles"></a>
+
+```bash
+find audio/ -type f | wc -l
 ```
 
 
