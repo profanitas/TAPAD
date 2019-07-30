@@ -1,13 +1,18 @@
 # The Abuse Project Audio Dataset (TAPAD)
 
-![tapad-logo]()
+<!--![tapad-logo]()-->
 
 <p align="center">
 <b>World's largest profanity audio dataset<br><br>
-Total files: ‭[26,365‬](#checkfiles)<br>
+Dataset consists of ‭<a href="#checkfiles">26,365</a> audio files<br>
   Click <a href="https://github.com/0x48piraj/tapad/wiki">here</a> for documentation<br><br>
 See <a href="https://github.com/0x48piraj/theabuseproject">The Abuse Project</a></b>
 </p>
+
+| Category        | Const           |
+|-----------------|-----------------|
+| Total files     | `26,365`        |
+| Dataset updated | `July 30, 2019` |
 
 ## ID3
 
@@ -40,7 +45,7 @@ To each one of the classes, corresponds 347 audio sample of ~1 seconds each.
 
 All of these audio files have been seperated by class in order to have **347 MP3 files of 5.783 minutes** each.
 
-## Structure :
+## Structure
 
 ```
 bn - 347 mp3 files to which corresponds ~1 sec of audio
@@ -127,13 +132,11 @@ en-za - 347 mp3 files to which corresponds ~1 sec of audio
 find audio/ -type f | wc -l
 ```
 
+## Maintainers
 
-**Dataset updated** `July 30, 2019`
-
-**Dataset provided by**
-
-* **Piyush Raj**
-* **Manav Kapil**
+The dataset is maintained by :
+- Piyush Raj ([@0x48piraj](https://github.com/0x48piraj))
+- Manav Kapil ([@manav1999](https://github.com/manav1999))
 
 # LICENSE
 
