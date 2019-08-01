@@ -37,19 +37,17 @@ See <a href="https://github.com/0x48piraj/theabuseproject">The Abuse Project</a>
 | Avg Frame Rate     | 0/0             |
 | Time Base          | 1/14112000      |
 
+Languages are required to be 2 letters, normally their 2 letter ISO code, **see: [ISO_639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)**
 
-Most of these audio files have been seperated by class in order to have **347 MP3 files of 5.783 minutes** each. Languages are required to be 2 letters, normally their 2 letter ISO code, see: [ISO_639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-
-## Utilities
+## Scripts & Utilities
 
 | Filename           | Location           | Description                                   | Type               |
 |--------------------|--------------------|-----------------------------------------------|--------------------|
 | `record.py`        | `acquire\custom`   | Records audio in WAV format (default: 3 sec)  | Helper script      |
 | `wingen.py`        | `acquire\generate` | TTS conversion using `SAPI.SpVoice`           | Helper script      |
-
+| `gTTSgen.py`       | `acquire\generate` | TTS conversion using **gTTS** & `abuse 0.1.1` | Helper script      |
 
 ## Structure
-
 
 ```
 .
@@ -131,6 +129,7 @@ Most of these audio files have been seperated by class in order to have **347 MP
 ├───zh-cn
 └───zh-tw
 ```
+Most of these audio files have 347 MP3 files of 5.783 minutes each. 
 
 #### Checking files <a name="checkfiles"></a>
 
