@@ -1,2 +1,5 @@
 PyAudio==0.2.11
 Wave==0.0.2
+abuse==0.1.1
+gTTS==2.0.3
+
