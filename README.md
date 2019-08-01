@@ -1,7 +1,5 @@
 # The Abuse Project Audio Dataset (TAPAD)
 
-<!--![tapad-logo]()-->
-
 <p align="center">
 <b>World's largest profanity audio dataset<br><br>
 Dataset consists of ‭<a href="#checkfiles">26,365</a> audio files<br>
@@ -9,121 +7,129 @@ Dataset consists of ‭<a href="#checkfiles">26,365</a> audio files<br>
 See <a href="https://github.com/0x48piraj/theabuseproject">The Abuse Project</a></b>
 </p>
 
-| Category        | Const           |
-|-----------------|-----------------|
-| Total files     | `26,365`        |
-| Dataset updated | `July 30, 2019` |
+**TAPAD (∿)** is an open dataset, meaning it will grow over time as more data is contributed. In order to enable reproducibility and accurate citation the dataset is versioned using git tags.
 
-## ID3
+## Current Status & ID3
 
-| File Type          | MP3            |
-|--------------------|----------------|
-| Mime Type          | audio/mpeg     |
-| Mpeg Audio Version | 2              |
-| Audio Layer        | 3              |
-| Audio Bitrate      | 32 kbps        |
-| Sample Rate        | 24000          |
-| Channel Mode       | Single Channel |
-| Ms Stereo          | Off            |
-| Intensity Stereo   | Off            |
-| Codec Type         | audio          |
-| Codec Time Base    | 1/24000        |
-| Codec Tag          | 0x0000         |
-| Sample Fmt         | fltp           |
-| Sample Rate        | 24000          |
-| Channels           | 1              |
-| Channel Layout     | mono           |
-| Bits Per Sample    | 0              |
-| R Frame Rate       | 0/0            |
-| Avg Frame Rate     | 0/0            |
-| Time Base          | 1/14112000     |
+| Category           | Const           |
+|--------------------|-----------------|
+| Total files        | `26,365`        |
+| Dataset updated    | `July 30, 2019` |
+| Language classes   | `75`            |
+| File Type          | MP3             |
+| Mime Type          | audio/mpeg      |
+| Mpeg Audio Version | 2               |
+| Audio Layer        | 3               |
+| Audio Bitrate      | 32 kbps         |
+| Sample Rate        | 24000           |
+| Channel Mode       | Single Channel  |
+| Ms Stereo          | Off             |
+| Intensity Stereo   | Off             |
+| Codec Type         | audio           |
+| Codec Time Base    | 1/24000         |
+| Codec Tag          | 0x0000          |
+| Sample Fmt         | fltp            |
+| Sample Rate        | 24000           |
+| Channels           | 1               |
+| Channel Layout     | mono            |
+| Bits Per Sample    | 0               |
+| R Frame Rate       | 0/0             |
+| Avg Frame Rate     | 0/0             |
+| Time Base          | 1/14112000      |
 
 
-The dataset consists in **26365 MP3/WAV files** files in `./audio/` directory are sampled at 24KHz for **75 different language classes** with variable length.
+Most of these audio files have been seperated by class in order to have **347 MP3 files of 5.783 minutes** each. Languages are required to be 2 letters, normally their 2 letter ISO code, see: [ISO_639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
-To each one of the classes, corresponds 347 audio sample of ~1 seconds each.
+## Utilities
 
-All of these audio files have been seperated by class in order to have **347 MP3 files of 5.783 minutes** each.
+| Filename           | Location           | Description                                   | Type               |
+|--------------------|--------------------|-----------------------------------------------|--------------------|
+| `record.py`        | `acquire\custom`   | Records audio in WAV format (default: 3 sec)  | Helper script      |
+| `wingen.py`        | `acquire\generate` | TTS conversion using `SAPI.SpVoice`           | Helper script      |
+
 
 ## Structure
 
+
 ```
-bn - 347 mp3 files to which corresponds ~1 sec of audio
-bs - 347 mp3 files to which corresponds ~1 sec of audio
-ca - 347 mp3 files to which corresponds ~1 sec of audio
-cs - 347 mp3 files to which corresponds ~1 sec of audio
-cy - 347 mp3 files to which corresponds ~1 sec of audio
-da - 347 mp3 files to which corresponds ~1 sec of audio
-de - 347 mp3 files to which corresponds ~1 sec of audio
-el - 347 mp3 files to which corresponds ~1 sec of audio
-eo - 347 mp3 files to which corresponds ~1 sec of audio
-es - 347 mp3 files to which corresponds ~1 sec of audio
-et - 347 mp3 files to which corresponds ~1 sec of audio
-fi - 347 mp3 files to which corresponds ~1 sec of audio
-fr - 347 mp3 files to which corresponds ~1 sec of audio
-hi - 347 mp3 files to which corresponds ~1 sec of audio
-hr - 347 mp3 files to which corresponds ~1 sec of audio
-hu - 347 mp3 files to which corresponds ~1 sec of audio
-hy - 347 mp3 files to which corresponds ~1 sec of audio
-id - 347 mp3 files to which corresponds ~1 sec of audio
-is - 347 mp3 files to which corresponds ~1 sec of audio
-it - 347 mp3 files to which corresponds ~1 sec of audio
-ja - 347 mp3 files to which corresponds ~1 sec of audio
-jw - 347 mp3 files to which corresponds ~1 sec of audio
-km - 347 mp3 files to which corresponds ~1 sec of audio
-ko - 347 mp3 files to which corresponds ~1 sec of audio
-la - 347 mp3 files to which corresponds ~1 sec of audio
-lv - 347 mp3 files to which corresponds ~1 sec of audio
-mk - 347 mp3 files to which corresponds ~1 sec of audio
-ml - 347 mp3 files to which corresponds ~1 sec of audio
-mr - 347 mp3 files to which corresponds ~1 sec of audio
-my - 347 mp3 files to which corresponds ~1 sec of audio
-ne - 347 mp3 files to which corresponds ~1 sec of audio
-nl - 347 mp3 files to which corresponds ~1 sec of audio
-no - 347 mp3 files to which corresponds ~1 sec of audio
-pl - 347 mp3 files to which corresponds ~1 sec of audio
-pt - 347 mp3 files to which corresponds ~1 sec of audio
-ro - 347 mp3 files to which corresponds ~1 sec of audio
-ru - 347 mp3 files to which corresponds ~1 sec of audio
-si - 347 mp3 files to which corresponds ~1 sec of audio
-sk - 347 mp3 files to which corresponds ~1 sec of audio
-sq - 347 mp3 files to which corresponds ~1 sec of audio
-sr - 347 mp3 files to which corresponds ~1 sec of audio
-su - 347 mp3 files to which corresponds ~1 sec of audio
-sv - 347 mp3 files to which corresponds ~1 sec of audio
-sw - 347 mp3 files to which corresponds ~1 sec of audio
-ta - 347 mp3 files to which corresponds ~1 sec of audio
-te - 347 mp3 files to which corresponds ~1 sec of audio
-th - 347 mp3 files to which corresponds ~1 sec of audio
-tl - 347 mp3 files to which corresponds ~1 sec of audio
-tr - 347 mp3 files to which corresponds ~1 sec of audio
-uk - 347 mp3 files to which corresponds ~1 sec of audio
-vi - 347 mp3 files to which corresponds ~1 sec of audio
-en/1 -  340 wav files to which corresponds ~1 sec of audio
-en/2 -  347 mp3 files to which corresponds ~1 sec of audio
-ar - 347 mp3 files to which corresponds ~1 sec of audio
-af - 347 mp3 files to which corresponds ~1 sec of audio
-zh-cn - 347 mp3 files to which corresponds ~1 sec of audio
-zh-tw - 347 mp3 files to which corresponds ~1 sec of audio
-pt-br - 347 mp3 files to which corresponds ~1 sec of audio
-pt-pt - 347 mp3 files to which corresponds ~1 sec of audio
-es-es - 347 mp3 files to which corresponds ~1 sec of audio
-es-us - 347 mp3 files to which corresponds ~1 sec of audio
-fr-ca - 347 mp3 files to which corresponds ~1 sec of audio
-fr-fr - 347 mp3 files to which corresponds ~1 sec of audio
-en-au - 347 mp3 files to which corresponds ~1 sec of audio
-en-ca - 347 mp3 files to which corresponds ~1 sec of audio
-en-gb - 347 mp3 files to which corresponds ~1 sec of audio
-en-gh - 347 mp3 files to which corresponds ~1 sec of audio
-en-ie - 347 mp3 files to which corresponds ~1 sec of audio
-en-in - 347 mp3 files to which corresponds ~1 sec of audio
-en-ng - 347 mp3 files to which corresponds ~1 sec of audio
-en-nz - 347 mp3 files to which corresponds ~1 sec of audio
-en-ph - 347 mp3 files to which corresponds ~1 sec of audio
-en-tz - 347 mp3 files to which corresponds ~1 sec of audio
-en-uk - 347 mp3 files to which corresponds ~1 sec of audio
-en-us - 347 mp3 files to which corresponds ~1 sec of audio
-en-za - 347 mp3 files to which corresponds ~1 sec of audio
+.
+├───af
+├───ar
+├───bn
+├───bs
+├───ca
+├───cs
+├───cy
+├───da
+├───de
+├───el
+├───en
+│   ├───1 (340 wav files)
+│   └───2
+├───en-au
+├───en-ca
+├───en-gb
+├───en-gh
+├───en-ie
+├───en-in
+├───en-ng
+├───en-nz
+├───en-ph
+├───en-tz
+├───en-uk
+├───en-us
+├───en-za
+├───eo
+├───es
+├───es-es
+├───es-us
+├───et
+├───fi
+├───fr
+├───fr-ca
+├───fr-fr
+├───hi
+├───hr
+├───hu
+├───hy
+├───id
+├───is
+├───it
+├───ja
+├───jw
+├───km
+├───ko
+├───la
+├───lv
+├───mk
+├───ml
+├───mr
+├───my
+├───ne
+├───nl
+├───no
+├───pl
+├───pt
+├───pt-br
+├───pt-pt
+├───ro
+├───ru
+├───si
+├───sk
+├───sq
+├───sr
+├───su
+├───sv
+├───sw
+├───ta
+├───te
+├───th
+├───tl
+├───tr
+├───uk
+├───vi
+├───zh-cn
+└───zh-tw
 ```
 
 #### Checking files <a name="checkfiles"></a>

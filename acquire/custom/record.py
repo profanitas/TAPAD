@@ -1,6 +1,10 @@
 import pyaudio
 import wave, time
- 
+
+"""
+ Records 3 second (by default) long WAV audio file using default microphone
+"""
+
 FORMAT = pyaudio.paInt16
 CHANNELS = 2
 RATE = 44100
