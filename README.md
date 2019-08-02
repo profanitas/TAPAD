@@ -46,6 +46,7 @@ Languages are required to be 2 letters, normally their 2 letter ISO code, **see:
 | `record.py`        | `acquire\custom`   | Records audio in WAV format (default: 3 sec)  | Helper script      |
 | `wingen.py`        | `acquire\generate` | TTS conversion using `SAPI.SpVoice`           | Helper script      |
 | `gTTSgen.py`       | `acquire\generate` | TTS conversion using **gTTS** & `abuse 0.1.1` | Helper script      |
+| `gspectogram.py`   | `utils`            | Generates spectrogram of a wav file           | Utility tool       |
 
 ## Structure
 
@@ -129,7 +130,7 @@ Languages are required to be 2 letters, normally their 2 letter ISO code, **see:
 ├───zh-cn
 └───zh-tw
 ```
-Most of these audio files have 347 MP3 files of 5.783 minutes each. 
+Most of these audio classes have 347 MP3 files of **~5.783 minutes** each. MP3 **had** a lot of patent issues but according to [Wikipedia](https://en.wikipedia.org/wiki/MP3), _"If the longest-running patent mentioned in the aforementioned references is taken as a measure, then the MP3 technology became patent-free in the United States on **16 April 2017** when U.S. Patent 6,009,399, held by and administered by Technicolor, expired"_.
 
 #### Checking files <a name="checkfiles"></a>
 
@@ -137,13 +138,21 @@ Most of these audio files have 347 MP3 files of 5.783 minutes each.
 find audio/ -type f | wc -l
 ```
 
+## Made with TAPAD
+
+Did you use or saw TAPAD in a paper, project or app? Add it here!
+
+* [The Abuse Project](https://github.com/0x48piraj/theabuseproject)
+* (...)
+
 ## Maintainers
 
 The dataset is maintained by :
+
 - Piyush Raj ([@0x48piraj](https://github.com/0x48piraj))
 - Manav Kapil ([@manav1999](https://github.com/manav1999))
 
-# LICENSE
+## LICENSE
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
