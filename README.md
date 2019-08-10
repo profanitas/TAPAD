@@ -2,6 +2,7 @@
 
 <p align="center">
 <b>World's largest profanity audio dataset<br><br>
+  <img alt="PICTURE logo" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9aca4f84025945.5d4ec7202f989.png" width="400"><br>
 Dataset consists of ‭<a href="#checkfiles">26,365</a> audio files<br>
   Click <a href="https://github.com/0x48piraj/tapad/wiki">here</a> for documentation<br><br>
 See <a href="https://github.com/0x48piraj/theabuseproject">The Abuse Project</a></b>
