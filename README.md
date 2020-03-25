@@ -148,10 +148,16 @@ Did you use or saw TAPAD in a paper, project or app? Add it here!
 
 ## Maintainers
 
-The dataset is maintained by :
+The dataset is regularly updated and maintained by,
 
 - Piyush Raj ([@0x48piraj](https://github.com/0x48piraj))
-- Manav Kapil ([@manav1999](https://github.com/manav1999))
+
+## Useful Resources
+
+The textual data was collected was from different places which all have been listed below,
+
+- [Offensive/Profane Word List from Luis von Ahn's Research Group at Carnegie Mellon University](https://www.cs.cmu.edu/~biglou/resources/bad-words.txt)
+- [The Alphabet Of Swearing](https://www.voont.com/the-alphabet-of-swearing)
 
 ## LICENSE
 
